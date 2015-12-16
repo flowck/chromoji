@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chromoji",
+  "description": "Easily insert emojis on input fields",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Chromoji - Choose an emoji"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
