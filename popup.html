@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Chromoji</title>
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/emojify.min.css">
 </head>
 <body>
 	<header>
@@ -15,17 +16,17 @@
 	<hr>
 
 	<div class="emojis">
-		<span class="emoji" data-clipboard-text="😂">😂</span>
-		<span class="emoji" data-clipboard-text="😀">😀</span>
-		<span class="emoji" data-clipboard-text="😬">😬</span>
-		<span class="emoji" data-clipboard-text="😵">😵</span>
-		<span class="emoji" data-clipboard-text="😷">😷</span>
+		<input class="searchBar" type="text" placeholder="Search an emoji here">
+		<br>
+		<div class="content-emojis">
+			<span class="emoji" data-clipboard-text=""</span>
+		</div>
 	</div>
 	<div class="success">
 		
 	</div>
-
 	<script src="vendor/clipboard/dist/clipboard.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/source.js"></script>
+	<script src="js/app.js"></script>
 </body>
 </html>
