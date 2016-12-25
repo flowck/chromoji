@@ -42,6 +42,9 @@
 		// Update the DOM
 		element.innerHTML = content;
 
+		// Call Clipboard
+		copyByClick();
+
 	}
 
 	/* Update emoji list by search value */
@@ -64,7 +67,7 @@
 	});
 
 	/* Clipboard */
-	var copyByClick = (function(){
+	var copyByClick = function(){
 
 		console.log("OK");
 		
@@ -79,6 +82,7 @@
 			console.log("Error");	
 		});
 
-	}());
+	};
+	copyByClick();
 
 }(emoji, Clipboard))
